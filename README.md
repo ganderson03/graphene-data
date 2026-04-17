@@ -10,13 +10,6 @@ This repository stores data artifacts produced by Graphene-HA experiments.
 - metadata/: Manifests and run-level metadata.
 - docs/: Data definitions and ingestion notes.
 
-## Recommended Ingestion Flow
-
-1. Copy a new run output bundle into raw/ with a dated folder name.
-2. Register the run in metadata/sessions_manifest.csv.
-3. Transform raw data into normalized tables in processed/.
-4. Export aggregate tables/plots to exports/ for report use.
-
 ## Naming Convention
 
 Use manifest-derived folder names:
