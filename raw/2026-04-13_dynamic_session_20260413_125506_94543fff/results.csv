@@ -1,0 +1,2 @@
+input,success,crashed,escape_detected,escape_summary,error,execution_time_ms
+"<bridge-startup>",false,true,false,"No escaping references detected","Runtime Crash: Exception in thread ""main"" java.lang.NoClassDefFoundError: com/google/gson/GsonBuilder",0
